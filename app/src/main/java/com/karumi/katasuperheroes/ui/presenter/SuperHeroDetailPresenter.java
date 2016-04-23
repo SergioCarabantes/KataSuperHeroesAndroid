@@ -18,6 +18,7 @@ package com.karumi.katasuperheroes.ui.presenter;
 
 import com.karumi.katasuperheroes.model.SuperHero;
 import com.karumi.katasuperheroes.usecase.GetSuperHeroByName;
+
 import javax.inject.Inject;
 
 public class SuperHeroDetailPresenter extends Presenter<SuperHeroDetailPresenter.View> {

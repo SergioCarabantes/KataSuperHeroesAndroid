@@ -17,9 +17,11 @@
 package com.karumi.katasuperheroes.di;
 
 import com.karumi.katasuperheroes.model.SuperHeroesRepository;
+
+import javax.inject.Singleton;
+
 import dagger.Module;
 import dagger.Provides;
-import javax.inject.Singleton;
 
 @Module public class MainModule {
 

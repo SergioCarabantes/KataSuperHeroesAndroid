@@ -18,8 +18,10 @@ package com.karumi.katasuperheroes.usecase;
 
 import android.os.Handler;
 import android.os.Looper;
+
 import com.karumi.katasuperheroes.model.SuperHero;
 import com.karumi.katasuperheroes.model.SuperHeroesRepository;
+
 import javax.inject.Inject;
 
 public class GetSuperHeroByName {

@@ -18,8 +18,10 @@ package com.karumi.katasuperheroes.di;
 
 import com.karumi.katasuperheroes.ui.view.MainActivity;
 import com.karumi.katasuperheroes.ui.view.SuperHeroDetailActivity;
-import dagger.Component;
+
 import javax.inject.Singleton;
+
+import dagger.Component;
 
 @Singleton @Component(modules = MainModule.class) public interface MainComponent {
 

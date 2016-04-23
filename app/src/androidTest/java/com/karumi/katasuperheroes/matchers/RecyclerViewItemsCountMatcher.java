@@ -18,6 +18,7 @@ package com.karumi.katasuperheroes.matchers;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
